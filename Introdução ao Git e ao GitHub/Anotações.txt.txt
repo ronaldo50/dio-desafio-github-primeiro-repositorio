@@ -1,2 +1,45 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+
+*Crie um repositorio 
+-Coloque o nome do repositorio
+-Abaixo coloque uma descrição
+-Deixe o repositorio publico
+-Selecione Add a README file
+-Create repository
+
+* Em HTTPS clone o link do seu repositorio 
+-Codigos para usar no Git Bash "terminal do Git "
+-Crie uma pasta em Documentos ou onde achar melhor
+#clique com o botao direito e abra o Git/Bash
+#git clone e cole o link do seu repositorio tipo esse "https://github.com/ronaldo50/dio-desafio-github-primeiro-repositorio.git"
+-e aperte entre
+
+#cd e o repositorio que voce criou por exemplo criei esse " https://github.com/ronaldo50/dio-desafio-github-primeiro-repositorio.git"
+
+#ficaria assim (#cd https://github.com/ronaldo50/dio-desafio-github-primeiro-repositorio.git)
+
+#git status (para verificar se esta tudo certo)
+
+* volte na pasta que voce crio no meu caso fui em documentos e criei a pasta com nome  DIO 
+* vou criar uma pasta com nome (Introdução ao Git e ao GitHub)
+-dentro desta pasta crio um bloco de anotações.txt
+dentro dela coloco anotações importante ou ate mesmo para pesquisar depois
+tipo 
+Link para download do Git: https://git.scm.com/downloads
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+// como add essas informações nova a o repositorio volte ao terminal Git Bash //
+
+#git status 
+#git add .   // para adicionar todos arquivos criados recentimente //
+#git commit -m "Inclusão das anotações do curso de Git/Bub"
+#git status
+#git push origin main
+
+
+
+
+
+
